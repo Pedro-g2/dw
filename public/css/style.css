@@ -1,0 +1,236 @@
+/* LOGIN */
+body {
+    background-color: #dcdcdc;
+    height: 100vh;
+}
+
+.login-container {
+    width: 500px;
+    padding: 50px;
+    background-color: #eed393;
+    border-radius: 15px;
+}
+
+.login-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.form-label {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.form-control {
+    background-color: #f0fff0;
+}
+
+.btn-login {
+    background-color: #f0fff0;
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image-side {
+    max-width: 100%;
+    height: auto;
+}
+
+.forgot-link {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .image-col {
+        display: none;
+    }
+}
+
+/* Home */
+/* Gradiente de fundo */
+body, .main-container {
+  background: linear-gradient(to bottom, #ff8000, #ffd700);
+  min-height: 100vh;
+}
+
+/* Navegação */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Botão hamburguer */
+.navbar-toggler {
+  background-color: white;
+  border: none;
+}
+
+/* Banner */
+.banner-paroquia {
+  background-color: #dcdcdc;
+  padding: 80px 0;
+  width: 100%;
+  max-width: 700px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-radius: 5px;
+}
+
+/* EVANGELHO */
+/* Fundo gradiente */
+body, .main-container {
+  background: linear-gradient(to bottom, #ff8000, #ffd700);
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Botão hamburguer */
+.navbar-toggler {
+  background-color: white;
+  border: none;
+}
+
+/* Colunas de texto */
+.bg-light {
+  background-color: #f4f1e8 !important;
+}
+
+/* Horarios */
+/* Fundo gradiente */
+body, .main-container {
+  background: linear-gradient(to bottom, #ff8000, #ffd700);
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+  background-color: white;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Cartões */
+.card {
+  border: none;
+  background-color: #fefefe;
+  border-radius: 15px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+
+
+/* LOGIN & CADASTRO */
+body {
+    background-color: #dcdcdc;
+    height: 100vh;
+}
+
+.login-container {
+    width: 500px;
+    padding: 50px;
+    background-color: #eed393;
+    border-radius: 15px;
+}
+
+.login-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.form-label {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.form-control {
+    background-color: #f0fff0;
+}
+
+.btn-login {
+    background-color: #f0fff0;
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image-side {
+    max-width: 100%;
+    height: auto;
+}
+
+.forgot-link {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .image-col {
+        display: none;
+    }
+}
+
