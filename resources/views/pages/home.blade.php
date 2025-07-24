@@ -9,27 +9,31 @@
             <img src="{{ asset('imagens/img_login.png') }}" alt="Igreja e árvore" class="image-side img-fluid"
                 style="max-width: 500px; width: 100%; height: auto;">
         </div>
+
         <div>
-            <p style="text-align: justify;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt
-                consectetur,
-                nisi nisl aliquam enim, nec facilisis massa mauris ac dolor. Pellentesque habitant morbi
-                tristique
-                senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus
-                orci luctus et ultrices posuere cubilia curae; Integer nec odio. Praesent libero. Sed cursus
-                ante
-                dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-                Praesent
-                mauris.
-            </p>
-            <p style="text-align: justify;">
-                Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class
-                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur
-                sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.
-                Aenean
-                quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula
-                vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa.
-            </p>
+            <div class="bg-light p-3 rounded-3 mb-4">
+                <h4 class="fw-bold">Avançam as Obras da Reforma da Igreja Matriz</h4>
+                <small class="text-muted">Publicado em 22 de julho de 2025</small>
+                <p style="text-align: justify;" class="mt-2">
+                    As obras de reforma da nossa amada Igreja Matriz seguem em ritmo acelerado. A primeira fase, focada na restauração do telhado e da fachada, está prestes a ser concluída. Agradecemos a todos os paroquianos pelas generosas doações que tornaram este sonho uma realidade. Continue colaborando para as próximas etapas!
+                </p>
+            </div>
+
+            <div class="bg-light p-3 rounded-3 mb-4">
+                <h4 class="fw-bold">Inscrições Abertas para a Catequese 2025</h4>
+                <small class="text-muted">Publicado em 18 de julho de 2025</small>
+                <p style="text-align: justify;" class="mt-2">
+                    Estão oficialmente abertas as inscrições para as turmas de Catequese de Primeira Eucaristia e Crisma para o ano de 2025. As vagas são limitadas! Procure a secretaria paroquial para garantir a inscrição de seus filhos e filhas nesta importante jornada de fé e aprendizado cristão. Não deixe para a última hora.
+                </p>
+            </div>
+
+            <div class="bg-light p-3 rounded-3">
+                <h4 class="fw-bold">Campanha do Agasalho Aquece Corações em Arinos</h4>
+                <small class="text-muted">Publicado em 15 de julho de 2025</small>
+                <p style="text-align: justify;" class="mt-2">
+                    Com a chegada do frio, nossa paróquia lança a Campanha do Agasalho "Aqueça um Irmão". Estamos arrecadando cobertores e roupas de frio em bom estado. As doações podem ser entregues na secretaria ou durante as missas de fim de semana. Sua solidariedade pode aquecer quem mais precisa neste inverno.
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -41,12 +45,53 @@
                 <img src="{{ asset('imagens/pastor.png') }}" alt="Coordenador da Pastoral" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
             </div>
             <div class="col-md-8">
-                <h4 class="fw-bold mb-2">Coordenadores da Pastoral</h4>
-                <p class="mb-1"><strong>Maria da Silva</strong> – Coordenadora Geral</p>
-                <p class="mb-3"><strong>João Pereira</strong> – Vice-Coordenador</p>
-                <p>
-                    Nossa equipe de coordenação está sempre pronta para acolher, orientar e servir a comunidade. Entre em contato conosco para saber mais sobre as atividades e projetos da pastoral.
-                </p>
+                <h4 class="fw-bold mb-3 text-start">Coordenadores de Pastoral</h4>
+                
+                {{-- Início da grade de cards --}}
+                <div class="row">
+                    {{-- Card 1 --}}
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="border rounded-3 p-3 h-100">
+                            <strong>Pastoral da Catequese:</strong><br>
+                            Ana Lúcia Fernandes<br>
+                            <small class="text-muted">Contato: (38) 99911-1111</small>
+                        </div>
+                    </div>
+                    {{-- Card 2 --}}
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="border rounded-3 p-3 h-100">
+                            <strong>Pastoral do Dízimo:</strong><br>
+                            Carlos Eduardo Santos<br>
+                            <small class="text-muted">Contato: (38) 99922-2222</small>
+                        </div>
+                    </div>
+                    {{-- Card 3 --}}
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="border rounded-3 p-3 h-100">
+                            <strong>Pastoral da Família:</strong><br>
+                            Beatriz e Ricardo Almeida<br>
+                            <small class="text-muted">Contato: (38) 99933-3333</small>
+                        </div>
+                    </div>
+                    {{-- Card 4 --}}
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="border rounded-3 p-3 h-100">
+                            <strong>Pastoral da Juventude:</strong><br>
+                            Gabriel Oliveira<br>
+                            <small class="text-muted">Contato: (38) 99944-4444</small>
+                        </div>
+                    </div>
+                     {{-- Card 5 --}}
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="border rounded-3 p-3 h-100">
+                            <strong>Pastoral do Batismo:</strong><br>
+                            Sônia Ribeiro Costa<br>
+                            <small class="text-muted">Contato: (38) 99955-5555</small>
+                        </div>
+                    </div>
+                </div>
+                 {{-- Fim da grade de cards --}}
+
             </div>
         </div>
     </div>
